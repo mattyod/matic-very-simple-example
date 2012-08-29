@@ -1,0 +1,26 @@
+{
+  "name": "Very simple example",
+  "description": "A very simple example project to use with Matic. Hopefully looking at the structure of this project will assist in beginning to work with Schema and putting together your own project file. It is suggested that you use this project as a start point for understanding how Schema works",
+  "type": "object",
+  "properties": {
+    "id": {
+      "title": "Unique ID",
+      "description": "There will be many times your JSON schema needs an id, you might describe it like this.",
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "title": "The name for this object",
+      "description": "This object has a name too, it doesn't have to be unique.",
+      "type": "string",
+      "required": true,
+      "default": "anonymous"
+    },
+    "is": {
+      "title": "Is it or isn't it?",
+      "description": "This object can be or might not be but it must be one or the other.",
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
