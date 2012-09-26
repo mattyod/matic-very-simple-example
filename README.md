@@ -1,6 +1,6 @@
 # matic-very-simple-example
 
-A very simple example project for Matic
+A very simple example project for Matic using one Jade template and one schema file.
 
 ## Dependencies
 To build this example you will need to install the following two node packages:
