@@ -21,6 +21,10 @@
       "description": "This object can be or might not be but it must be one or the other.",
       "type": "boolean",
       "required": true
+    },
+    "thing": {
+      "title": null,
+      "description": null
     }
   }
 }

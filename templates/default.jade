@@ -25,7 +25,12 @@ html
               each value, key in property
                 dt
                   | "#{key}":
-                dd= value
+                if value == null
+                  dd
+                    span.null
+                      | null
+                else
+                  dd= value
       span.container }
       footer
         p Built with
